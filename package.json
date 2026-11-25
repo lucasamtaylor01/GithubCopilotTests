@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@github/copilot-sdk": "^1.0.34",
+    "tsx": "^4.23.15"
+  },
+  "type": "module"
+}
