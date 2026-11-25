@@ -1,5 +1,44 @@
-# GithubCopilotTests
-Testing what copilot can do
+# GitHub Copilot SDK Tests
+
+A collection of practical examples and tests for the GitHub Copilot SDK, including Python and TypeScript implementations.
+
+## 📁 Project Structure
+
+```
+GithubCopilotTests/
+├── 01_SETTING_UP_THE_COPILOT_SDK_ENVIRONMENT/
+│   ├── 00_FIRST_TEST/
+│   │   ├── 00_PYTHON/          # Python examples with async/await
+│   │   │   ├── 101_examples/   # Basic educational examples
+│   │   │   ├── first_agent.py  # Main Copilot SDK example
+│   │   │   └── requirements.txt
+│   │   └── 01_JAVASCRIPT/      # TypeScript/JavaScript examples
+│   │       └── index.ts        # Main Copilot SDK example
+│   └── README.md
+└── README.md
+```
+
+## 🚀 Quick Start
+
+### Python Example
+```bash
+cd 01_SETTING_UP_THE_COPILOT_SDK_ENVIRONMENT/00_FIRST_TEST/00_PYTHON/
+pip install -r requirements.txt
+python first_agent.py
+```
+
+### JavaScript/TypeScript Example
+```bash
+cd 01_SETTING_UP_THE_COPILOT_SDK_ENVIRONMENT/00_FIRST_TEST/01_JAVASCRIPT/
+npm install
+npm run dev
+```
+
+## 📚 Learning Resources
+
+### Understanding Async/Await in Copilot SDK
+
+The examples demonstrate key async patterns used with the Copilot SDK:
 
 ## How `async` and `await` work in `first_agent.py`
 
