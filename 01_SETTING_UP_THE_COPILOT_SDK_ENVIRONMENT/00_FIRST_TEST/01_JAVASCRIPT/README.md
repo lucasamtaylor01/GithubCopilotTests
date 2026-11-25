@@ -2,6 +2,13 @@
 
 This directory contains TypeScript examples demonstrating how to use the GitHub Copilot SDK with JavaScript/Node.js.
 
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
 ## Files
 
 - **index.ts** - Main example showing:

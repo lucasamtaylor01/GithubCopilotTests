@@ -2,6 +2,13 @@
 
 This directory contains Python examples demonstrating how to use the GitHub Copilot SDK with async/await patterns.
 
+## 🚀 Quick Start
+
+```bash
+pip install -r requirements.txt
+python first_agent.py
+```
+
 ## Files
 
 - **first_agent.py** - Main example showing:
@@ -27,6 +34,16 @@ This directory contains Python examples demonstrating how to use the GitHub Copi
 
 ```bash
 python first_agent.py
+```
+
+## Running Educational Examples
+
+```bash
+# Learn asyncio basics
+python 101_examples/asyncio_example.py
+
+# Learn functools.partial
+python 101_examples/partial_example.py
 ```
 
 ## Key Concepts
