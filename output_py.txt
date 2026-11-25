@@ -1,0 +1,26 @@
+(.venv) zocyus@pop-os:~/Documents/GithubCopilotTests$ pip install github-copilot-sdk
+Requirement already satisfied: github-copilot-sdk in ./.venv/lib/python3.12/site-packages (1.0.35)
+Requirement already satisfied: python-dateutil>=2.9.0.post0 in ./.venv/lib/python3.12/site-packages (from github-copilot-sdk) (4.0.0)
+Requirement already satisfied: pydantic>=2.11 in ./.venv/lib/python3.12/site-packages (from github-copilot-sdk) (2.14.4)
+Requirement already satisfied: httpx>=0.24.0 in ./.venv/lib/python3.12/site-packages (from github-copilot-sdk) (0.28.1)
+Requirement already satisfied: anyio in ./.venv/lib/python3.12/site-packages (from httpx>=0.24.0->github-copilot-sdk) (4.16.0)
+Requirement already satisfied: certifi in ./.venv/lib/python3.12/site-packages (from httpx>=0.24.0->github-copilot-sdk) (2026.11.20)
+Requirement already satisfied: httpcore==1.* in ./.venv/lib/python3.12/site-packages (from httpx>=0.24.0->github-copilot-sdk) (1.0.9)
+Requirement already satisfied: idna in ./.venv/lib/python3.12/site-packages (from httpx>=0.24.0->github-copilot-sdk) (3.20)
+Requirement already satisfied: h11>=0.16 in ./.venv/lib/python3.12/site-packages (from httpcore==1.*->httpx>=0.24.0->github-copilot-sdk) (0.16.0)
+Requirement already satisfied: annotated-types>=0.6.0 in ./.venv/lib/python3.12/site-packages (from pydantic>=2.11->github-copilot-sdk) (0.8.0)
+Requirement already satisfied: pydantic-core==2.50.5 in ./.venv/lib/python3.12/site-packages (from pydantic>=2.11->github-copilot-sdk) (2.50.5)
+Requirement already satisfied: typing-extensions>=4.16.0 in ./.venv/lib/python3.12/site-packages (from pydantic>=2.11->github-copilot-sdk) (4.16.0)
+Requirement already satisfied: typing-inspection>=0.4.4 in ./.venv/lib/python3.12/site-packages (from pydantic>=2.11->github-copilot-sdk) (0.4.5)
+Requirement already satisfied: tzdata in ./.venv/lib/python3.12/site-packages (from python-dateutil>=2.9.0.post0->github-copilot-sdk) (2026.6)
+(.venv) zocyus@pop-os:~/Documents/GithubCopilotTests$ python3 -c "import copilot; print(copilot.__version__)"
+1.0.35
+(.venv) zocyus@pop-os:~/Documents/GithubCopilotTests$ python3 first_agent.py
+An AI agent is a software system that uses an AI model (usually an LLM) to pursue a goal autonomously. Instead of just answering one prompt, it:
+
+1. **Perceives**: takes in input, such as a user request, files, or tool results.
+2. **Plans**: decides which steps are needed.
+3. **Acts**: calls tools (run commands, search, edit files, call APIs).
+4. **Observes and iterates**: checks the results, adjusts, and repeats until the goal is met.
+
+The key difference from a plain chatbot is the loop of reasoning, tool use, and feedback. It can take multiple actions on its own. I'm an example: I read code, run tests, and edit files to complete your tasks.

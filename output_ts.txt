@@ -1,0 +1,18 @@
+(.venv) zocyus@pop-os:~/Documents/GithubCopilotTests$ npm install @github/copilot-sdk tsx
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@github/copilot-sdk@1.0.34',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+
+up to date, audited 12 packages in 1s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(.venv) zocyus@pop-os:~/Documents/GithubCopilotTests$ npx tsx --version
+tsx v4.23.15
+node v18.19.1
+(.venv) zocyus@pop-os:~/Documents/GithubCopilotTests$ npx tsx index.ts
+An AI agent is a software system that uses an AI model (like an LLM) to perceive its environment, make decisions, and take actions, often by calling tools, to autonomously pursue a goal.
